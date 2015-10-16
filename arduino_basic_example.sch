@@ -2896,6 +2896,7 @@ Source: 008-0260-0_E.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="73.66" y="114.3" size="1.778" layer="91">L4931 or LM7805 5v regulator</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="71.12" y="40.64"/>
