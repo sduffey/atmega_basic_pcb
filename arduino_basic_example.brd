@@ -668,7 +668,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="34.036" y="13.462" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="34.036" y="13.462" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L4931" library="v-reg-3" package="78LXX" value="5v" x="11.176" y="12.192" smashed="yes" rot="R180">
+<element name="L4931-5.0" library="v-reg-3" package="78LXX" value="5v reg" x="11.176" y="12.192" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.605" y="15.367" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="14.097" y="10.668" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -719,7 +719,7 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="IC1" pad="21"/>
 <contactref element="IC1" pad="20"/>
-<contactref element="L4931" pad="OUT"/>
+<contactref element="L4931-5.0" pad="OUT"/>
 <contactref element="C4" pad="+"/>
 <contactref element="POT1" pad="3"/>
 <wire x1="32.766" y1="9.652" x2="32.766" y2="7.112" width="0.6096" layer="16"/>
@@ -751,7 +751,7 @@ design rules under a new name.</description>
 <contactref element="C2" pad="2"/>
 <contactref element="IC1" pad="22"/>
 <contactref element="GND1" pad="1"/>
-<contactref element="L4931" pad="GND"/>
+<contactref element="L4931-5.0" pad="GND"/>
 <contactref element="C3" pad="-"/>
 <contactref element="C4" pad="-"/>
 <contactref element="D1" pad="K"/>
@@ -831,7 +831,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="+9V">
 <contactref element="+9V1" pad="1"/>
-<contactref element="L4931" pad="IN"/>
+<contactref element="L4931-5.0" pad="IN"/>
 <contactref element="C3" pad="+"/>
 <wire x1="5.334" y1="13.192" x2="8.906" y2="13.192" width="0.6096" layer="16"/>
 <wire x1="8.906" y1="13.192" x2="9.906" y2="12.192" width="0.6096" layer="16"/>

@@ -2862,7 +2862,7 @@ Source: 008-0260-0_E.pdf</description>
 </classes>
 <parts>
 <part name="IC1" library="atmel" deviceset="MEGA8-P" device="" value="ATMEGA328P"/>
-<part name="L4931" library="v-reg-3" deviceset="78LXX" device="" value="5v"/>
+<part name="L4931-5.0" library="v-reg-3" deviceset="78LXX" device="" value="5v reg"/>
 <part name="R1" library="gm-resistors" deviceset="6MM" device=".3" value="10k"/>
 <part name="GND1" library="gm-supply" deviceset="GND(T)" device=""/>
 <part name="+9V1" library="gm-supply" deviceset="+9V(T)" device=""/>
@@ -2896,11 +2896,11 @@ Source: 008-0260-0_E.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="73.66" y="114.3" size="1.778" layer="91">L4931 or LM7805 5v regulator</text>
+<text x="76.2" y="114.3" size="1.778" layer="91">5 volt regulator l4931-5.0 or LM7805</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="71.12" y="40.64"/>
-<instance part="L4931" gate="1" x="76.2" y="101.6"/>
+<instance part="L4931-5.0" gate="1" x="76.2" y="101.6"/>
 <instance part="R1" gate="G$1" x="48.26" y="78.74" rot="R90"/>
 <instance part="GND1" gate="GND" x="76.2" y="86.36"/>
 <instance part="+9V1" gate="+9V" x="60.96" y="106.68"/>
@@ -2957,7 +2957,7 @@ Source: 008-0260-0_E.pdf</description>
 <junction x="48.26" y="60.96"/>
 </segment>
 <segment>
-<pinref part="L4931" gate="1" pin="OUT"/>
+<pinref part="L4931-5.0" gate="1" pin="OUT"/>
 <pinref part="VB1" gate="G$1" pin="VB"/>
 <wire x1="83.82" y1="101.6" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="101.6" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
@@ -2998,7 +2998,7 @@ Source: 008-0260-0_E.pdf</description>
 </segment>
 <segment>
 <pinref part="GND1" gate="GND" pin="GND"/>
-<pinref part="L4931" gate="1" pin="GND"/>
+<pinref part="L4931-5.0" gate="1" pin="GND"/>
 <wire x1="76.2" y1="88.9" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
 <junction x="76.2" y="93.98"/>
 <junction x="76.2" y="88.9"/>
@@ -3082,7 +3082,7 @@ Source: 008-0260-0_E.pdf</description>
 <net name="+9V" class="0">
 <segment>
 <pinref part="+9V1" gate="+9V" pin="+9V"/>
-<pinref part="L4931" gate="1" pin="IN"/>
+<pinref part="L4931-5.0" gate="1" pin="IN"/>
 <wire x1="60.96" y1="104.14" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
 <junction x="60.96" y="104.14"/>
